@@ -1,0 +1,28 @@
+
+
+.item1  { 
+  background-color: rgba(0,0,255,0.5);
+  /*min-height:20%;*/
+  /*min-width:100%;*/
+  padding: 40px;
+ }
+
+.item2{
+
+	background-color: rgba(0,255,0,0.5);
+	/*min-height:60%;*/
+	/*height:60fr;*/
+	padding:250px;
+	/*min-width:100%;*/
+} 
+
+
+body{
+	display:grid;
+	
+	margin: 00px 00px ;
+	background-size: cover;
+	font-size:2em;
+	/*box-sizing: border-box;*/
+
+}
