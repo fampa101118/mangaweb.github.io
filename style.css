@@ -1,28 +1,149 @@
+/** {
+  box-sizing: border-box;
+}*/
+
+.item1{ 
+  /*background-color: */
+  background: url(cover5.jpg) ;
+  /*padding: 90px;*/
+  background-size: cover;
+  background-position: center;
+  object-fit:cover;
+  /*opacity:0.8;*/
+  /*filter: grayscale(var(--value, 100%));*/
+  /*background: linear-gradient(180deg, rgba(32,33,37,1) 0%, rgba(32,33,37,0) 64%);*/
 
 
-.item1  { 
-  background-color: rgba(0,0,255,0.5);
-  /*min-height:20%;*/
-  /*min-width:100%;*/
-  padding: 40px;
  }
+.item1 {
+      width: 100%;
+      height: 271px;
+
+}
+/*.zone { margin: 00px; }*/
 
 .item2{
 
-	background-color: rgba(0,255,0,0.5);
-	/*min-height:60%;*/
-	/*height:60fr;*/
-	padding:250px;
-	/*min-width:100%;*/
+	background-color: rgba(33,34,35,255);
+	
+	height:calc(var(--vh, 1vh)*100); /******imp****- this is for to full-fill the webpage in mobile aslo*/ 
+	/*height: 50vh;  view port height value is quite responsive then px, it can size according to the size of website */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 } 
 
-
 body{
-	display:grid;
-	
-	margin: 00px 00px ;
+	/*display:grid;*/
+	 /*background-color: rgba(12.2, 9.8, 0.9);*/
+	margin: auto 0;
 	background-size: cover;
 	font-size:2em;
 	/*box-sizing: border-box;*/
+
+}
+
+.hellow{
+
+	margin:00px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .hello {
+        font-size: 0.5em;
+        padding: 0;
+    } 
+}
+
+
+
+
+/*media queries allow us to create responsive websites and tell our web pages what to do when the sixe of our screen */
+
+
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
 
 }
